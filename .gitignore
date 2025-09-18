@@ -3,3 +3,8 @@ _build/
 .DS_Store
 .vscode/
 .idea/
+_build/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
