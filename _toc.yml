@@ -1,9 +1,49 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
+
+parts:
+  - caption: Foundations
+    numbered: true
+    chapters:
+      - file: chapters/01_sets_events
+        sections:
+          - file: chapters/01a_sample_space
+          - file: chapters/01b_axioms
+          - file: chapters/01c_properties
+      - file: chapters/02_conditional_bayes
+        sections:
+          - file: chapters/02a_conditional_probability
+          - file: chapters/02b_bayes_theorem
+          - file: chapters/02c_odds_and_bayes
+
+  - caption: Random Variables & Distributions
+    numbered: true
+    chapters:
+      - file: chapters/03_random_variables
+        sections:
+          - file: chapters/03a_discrete_rv
+          - file: chapters/03b_continuous_rv
+      - file: chapters/04_common_distributions
+        sections:
+          - file: chapters/04a_bernoulli_binomial
+          - file: chapters/04b_poisson_exponential
+          - file: chapters/04c_normal_t_chi2
+
+  - caption: Expectation & Limit Laws
+    numbered: true
+    chapters:
+      - file: chapters/05_expectation_variance
+      - file: chapters/06_joint_independence
+      - file: chapters/07_lln_clt
+
+  - caption: Applications & Projects
+    numbered: false
+    chapters:
+      - file: chapters/08_data_science_apps
+      - file: chapters/09_epidemiology_apps
+      - file: chapters/10_ml_apps
+      - file: chapters/11_projects
+
+  - caption: Back Matter
+    chapters:
+      - file: references
