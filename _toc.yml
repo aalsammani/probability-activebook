@@ -29,7 +29,7 @@ parts:
           - file: chapters/04b_poisson_exponential
           - file: chapters/04c_normal_t_chi2
 
-  - caption: Expectation & Limit Laws
+  - caption: Expectation, Dependence & Limits
     numbered: true
     chapters:
       - file: chapters/05_expectation_variance
