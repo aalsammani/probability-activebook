@@ -1,6 +1,3 @@
-
-## `references.md`
-```markdown
 # References
 
 This section collects recommended texts and open resources used throughout the book.
